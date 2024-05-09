@@ -2,6 +2,7 @@
 Moduł utils zawiera kilka funkcji matematycznych.
 """
 
+
 def add(a: int, b: int) -> int:
     """
     Dodaje dwie liczby całkowite i zwraca wynik.
@@ -14,6 +15,7 @@ def add(a: int, b: int) -> int:
         int: Suma a i b.
     """
     return a + b
+
 
 def subtract(a: int, b: int) -> int:
     """
@@ -28,6 +30,7 @@ def subtract(a: int, b: int) -> int:
     """
     return a - b
 
+
 def multiply(a: int, b: int) -> int:
     """
     Mnoży dwie liczby i zwraca wynik.
@@ -40,6 +43,7 @@ def multiply(a: int, b: int) -> int:
         int: Iloczyn a i b.
     """
     return a * b
+
 
 def divide(a: int, b: float) -> float:
     """
